@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import "mission";
+@import "card";
+
+body{
+    background-image: url('/image/coffee.jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+    background-attachment: fixed;
+    
+}
+
+
+
+.clearfix {
+    clear: both;
+    height: 200px;
+    display: block;
+}
+
+.showcase {
+    background-color: rgba(255, 192, 203,0.6);
+    padding: 20px;
+    font-size: 15px;
+   
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h1{
+            font-family: cursive;
+            letter-spacing: 1em;
+            font-size: 25px;
+            padding: 10px;
+        }
+    }
+    
+    ul {
+        padding: 10px;
+        list-style-type: none;
+        display:flex;
+    }
+
+    li {
+        padding: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+}
+
+.main {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    background-color: rgba(255, 255, 255,0.4);
+    width: 100%;
+    padding: 50px;
+ 
+    
+
+    h1 {
+        font-size: 70px;
+        letter-spacing: 1em;
+    }
+
+    h3 {
+        margin: 20px;
+        font-size: 30px;
+    }
+
+    a {
+        background-color: rgb(212, 146, 21);
+        padding: 10px;
+        border-radius: 10%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3);
+        color: white;
+       
+    }
+
+    a:hover {
+        background-color: rgba(255, 165, 0, 0.3);
+    }
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0 !important ;
+    width: 100% ;
+    margin: 0 ;
+    background-color: #ef5350;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    ul li {
+        margin-top: 20px;
+        padding: 5px;
+    }
+
+    ul li a {
+        color: white;
+        font-size: 16px;
+        
+    }
+
+    
+   
+}
+
+
+#submit {
+    background-color: rgb(212, 146, 21);
+        padding: 10px;
+        border-radius: 10%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3);
+        color: white;
+    
+}
+
+.emails {
+    margin: 50px;
+}
+
+
+
+@import 'mobile';

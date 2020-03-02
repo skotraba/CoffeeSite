@@ -1,0 +1,181 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.container p {
+  line-height: 2;
+  font-weight: bold;
+  word-spacing: 5px;
+}
+
+.container #service {
+  width: 100%;
+}
+
+.container .col.s12 {
+  text-align: center;
+  font-family: cursive;
+  margin-bottom: 50px;
+}
+
+.card:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+body {
+  background-image: url("/image/coffee.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.5;
+  background-attachment: fixed;
+}
+
+.clearfix {
+  clear: both;
+  height: 200px;
+  display: block;
+}
+
+.showcase {
+  background-color: rgba(255, 192, 203, 0.6);
+  padding: 20px;
+  font-size: 15px;
+}
+
+.showcase nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.showcase nav h1 {
+  font-family: cursive;
+  letter-spacing: 1em;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.showcase ul {
+  padding: 10px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.showcase li {
+  padding: 10px;
+}
+
+.showcase a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.main {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 100%;
+  padding: 50px;
+}
+
+.main h1 {
+  font-size: 70px;
+  letter-spacing: 1em;
+}
+
+.main h3 {
+  margin: 20px;
+  font-size: 30px;
+}
+
+.main a {
+  background-color: #d49215;
+  padding: 10px;
+  border-radius: 10%;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  -webkit-box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.main a:hover {
+  background-color: rgba(255, 165, 0, 0.3);
+}
+
+footer {
+  position: fixed;
+  bottom: 0 !important;
+  width: 100%;
+  margin: 0;
+  background-color: #ef5350;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+footer ul li {
+  margin-top: 20px;
+  padding: 5px;
+}
+
+footer ul li a {
+  color: white;
+  font-size: 16px;
+}
+
+#submit {
+  background-color: #d49215;
+  padding: 10px;
+  border-radius: 10%;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  -webkit-box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.emails {
+  margin: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .showcase nav {
+    font-size: 16px;
+  }
+  .main {
+    left: 0;
+  }
+  .main h1 {
+    font-size: 40px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
