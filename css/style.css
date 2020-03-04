@@ -31,7 +31,7 @@
 }
 
 body {
-  background-image: url("/image/coffee.jpg");
+  background-image: url("../image/coffee.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -161,10 +161,6 @@ footer ul li a {
   -webkit-box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3);
           box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3);
   color: white;
-}
-
-.emails {
-  margin: 50px;
 }
 
 @media screen and (max-width: 800px) {
