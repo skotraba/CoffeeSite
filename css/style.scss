@@ -8,7 +8,7 @@
 @import "card";
 
 body{
-    background-image: url('image/coffee.jpg');
+    background-image: url('../image/coffee.jpg');
     background-size:cover ;
     background-repeat: no-repeat;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -21,8 +21,12 @@ body{
 
 .clearfix {
     clear: both;
-    height: 200px;
+    height: 80vh;
     display: block;
+
+    &.two{
+        height: 20vh;
+    }
 }
 
 .showcase {
@@ -100,12 +104,12 @@ body{
 }
 
 footer {
-    position: fixed;
+    
     bottom: 0 !important ;
     width: 100% ;
     margin: 0 ;
     background-color: #ef5350;
-    display: flex;
+    display: flex !important;
     flex-direction: row;
     justify-content: space-evenly;
     
@@ -114,10 +118,15 @@ footer {
         padding: 5px;
     }
 
-    ul li a {
+    a {
         color: white;
         font-size: 16px;
+        cursor: pointer;
         
+    }
+
+    a:hover {
+        background-color: rgba(255, 165, 0, 0.3) !important;
     }
 
      
