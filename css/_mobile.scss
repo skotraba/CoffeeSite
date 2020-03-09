@@ -20,5 +20,11 @@
     .clearfix {
         height: 98vh;
     }
+
+    .card:hover {
+        transform: none;
+        transition: none;
+     }
+     
 }
   

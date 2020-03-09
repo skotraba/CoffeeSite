@@ -20,7 +20,7 @@
                     <li><a href='index.html'>Home</a></li>
                     <li><a href='mission.html'>Mission</a></li>
                     <li><a href='order.html'>Order</a></li>
-                    <li><a><i class="material-icons">shopping_cart</i></a></li>
+                    <li><a href='#'><i class="material-icons">shopping_cart</i></a></li>
                 </ul>
             </nav>
     </header>
@@ -38,7 +38,7 @@
                     <div class="card-image">
                       <img src="image/coffee.jpg">
                       <span class="card-title">Light Roast</span>
-                      <a class="btn-floating halfway-fab waves-effect waves-light red" id='order'><i class="material-icons">add_shopping_cart</i></a>
+                      <a class="btn-floating halfway-fab waves-effect waves-light red" id='order1'><i class="material-icons">add_shopping_cart</i></a>
                     </div>
                     <div class="card-content">
                       <p>A light blend of coffee grounds. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dolore.</p>
@@ -50,7 +50,7 @@
                       <div class="card-image">
                         <img src="image/coffee.jpg">
                         <span class="card-title">Medium Roast</span>
-                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add_shopping_cart</i></a>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red" id='order2'><i class="material-icons">add_shopping_cart</i></a>
                       </div>
                       <div class="card-content">
                         <p>A Medium Blend of coffee grounds. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, qui.</p>
@@ -65,15 +65,39 @@
                 <div class="card-image">
                   <img src="image/coffee.jpg">
                   <span class="card-title">Dark Roast</span>
-                  <a class="btn-floating halfway-fab waves-effect waves-light red" ><i class="material-icons">add_shopping_cart</i></a>
+                  <a class="btn-floating halfway-fab waves-effect waves-light red"  id='order3'><i class="material-icons">add_shopping_cart</i></a>
                 </div>
                 <div class="card-content">
                   <p>A dark blend of coffee grounds. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eveniet?</p>
                 </div>
               </div>
             </div>
+            
       </div>
+      <button class='waves-effect waves-light btn' id="purchase">Purchase</button>
   </div>
+
+  <div class='container'>
+    <div class='cart'>
+        <h1>Your Shopping Cart</h1>
+        <p>
+            Your Shopping Cart contains:
+            <br>
+            <table id='items'>
+              <tr></tr>
+              <th>Item Name</th>
+              <th>Price</th>
+              <tr id='row'></tr>
+              <td>Total</td>
+              <td id='total'></td>
+              
+            </table>
+            <button class='waves-effect waves-light btn' id='clear'>Clear List</button>
+            <button class='waves-effect waves-light btn' id='confirm'>Confirm</button>
+        </p>
+    </div>
+</div>
+
 
   <div class='clearfix'></div>
     
